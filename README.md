@@ -34,6 +34,8 @@ SSH access through Security Group (modified by attacker)
 
 Diagram:
 
+<img width="900" height="500" alt="67db2f3b-fe58-4fba-909a-2ca6d1048b33" src="https://github.com/user-attachments/assets/a8df12e5-1d37-4c67-812b-b814569c0cda" />
+
 
 ## **Commands & Steps**
 ```bash
@@ -133,14 +135,19 @@ aws iam delete-user --user-name chaos
 ## **Screenshots**
 
 CloudTrail_Trail_Created.png	Proof of “monitor” trail successfully created
+<img width="1899" height="400" alt="cloudTrail log created" src="https://github.com/user-attachments/assets/02b02fae-28b5-4330-9fd2-5fe3ee93f1db" />
 
 Hacked_Website.png	Modified Café website with hacked image
+<img width="1249" height="500" alt="website hacked" src="https://github.com/user-attachments/assets/c7159dec-6e06-48a4-9607-c31f9cfe8b5b" />
 
 Athena_Query_Results.png	SQL query revealing “chaos-user” modifying security group
+<img width="1569" height="400" alt="Athena query showing the hacker" src="https://github.com/user-attachments/assets/e044d541-bcb2-4067-aac0-dfd7d1d879c0" />
 
 ChaosUser_Removed.png	Terminal confirmation of user deletion
+<img width="1901" height="300" alt="hacker deleted from users" src="https://github.com/user-attachments/assets/b83aa394-6d78-407a-9a5a-544d4850207d" />
 
 Restored_Website.png	Verified website restored with correct image
+<img width="1595" height="400" alt="hacked website is back" src="https://github.com/user-attachments/assets/23e816c8-d6bd-4877-8cff-a5add00d9060" />
 
 ## **Tools Used**
 
